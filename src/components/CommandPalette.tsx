@@ -72,7 +72,7 @@ export function CommandPalette() {
                         <Command.Group heading="Actions" className="text-xs font-semibold text-muted-foreground px-2 py-1.5 mt-2 mb-1">
                             <Command.Item
                                 className="flex items-center gap-2 cursor-pointer rounded-md text-foreground hover:bg-muted/50 aria-selected:bg-muted/50 aria-selected:text-foreground transition-colors"
-                                onSelect={() => runCommand(() => window.open('https://github.com/13sanni', '_blank'))}
+                                onSelect={() => runCommand(() => window.open('https://github.com/Mythicalok', '_blank'))}
                             >
                                 <Github />
                                 Open GitHub
