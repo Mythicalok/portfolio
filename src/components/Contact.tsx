@@ -62,7 +62,7 @@ const Contact = () => {
             <p className="text-foreground/90 mb-8 font-medium relative z-10">Make the right choice. Hire me.</p>
             <div className="mt-auto flex flex-col w-full gap-3 relative z-10">
               <Button
-                onClick={() => window.location.href = "mailto:aloksingh7587@gmail.com"}
+                onClick={() => window.location.href = "mailto:alsoksingh7587@gmail.com"}
                 className="w-full bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_0_15px_rgba(99,102,241,0.3)] hover:shadow-[0_0_25px_rgba(99,102,241,0.5)] transition-all"
               >
                 <Mail className="w-4 h-4 mr-2" />

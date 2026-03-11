@@ -10,7 +10,7 @@ const Hero = () => {
     }
   };
 
-  const codeString = `> whoami
+  const codeString = `> Who Am I ?
 
 Alok Pratap Singh
 Software Developer
@@ -37,7 +37,7 @@ contribute to innovative software solutions.`;
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1, y: [0, -10, 0] }}
-          transition={{ 
+          transition={{
             duration: 0.8,
             y: {
               duration: 4,
